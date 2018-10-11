@@ -15,7 +15,7 @@ describe('index route', () => {
       .expect(200)
       .then(response => {
         expect(response.text).toMatch(
-          /<title>Pauline's app<\/title>/
+          /<title>Pauline app lol<\/title>/
         );
       });
   });
